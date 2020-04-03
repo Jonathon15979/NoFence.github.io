@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="..\NoFe\animate.min.css">
+  <link rel="stylesheet" href="animate.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="stylesheet" href="..\NoFe\CSS.css">
+</head>
+<body>
+
+<!-- Page content -->
+<div class="main animated fadeIn">
+
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top animated slideInUp">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">No Fences</a>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse animated slideInLeft" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="..\NoFe\Home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Schedule</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="..\NoFe\subpages\contact.html">Contact</a>
+      </li>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon locationofbutton"></span>
+      </button>
+
+      <!-- Button to open the modal login form -->
+      <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+    </ul>
+  </div>
+    <a class="navlinkright" href="">日本語</a>
+    <a class="navlinkright" href="">English</a>
+</nav>
+
+  <!-- The Modal -->
+  <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'"
+  class="close" title="Close Modal">&times;</span>
+
+    <!-- Modal Content -->
+    <form class="modal-content animate" action="/action_page.php">
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button class="logbutton" type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+
+      <div class="container" style="background-color: #dbdbdb">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a><br><a href="#">Sign Up?</a></span>
+      </div>
+    </form>
+  </div>
+
+
+  <div class="title">
+    <h1 class="animated zoomInUp">No Fences</h1>
+  </div>
+<div class="parallax"></div>
+
+  <div class="sidenav animated slideInUp">
+
+    <a href="#"></a>
+    <a href="#">Red Cross</a>
+    <a href="#">Community Help</a>
+    <a href="subpages\Outdoor Activities.html">Outdoor Activities</a>
+    <a href="#">Indoor Activities</a>
+
+  </div>
+
+  <div class="sidenav2 animated slideInRight">
+    <p class="eventitle1">Up Coming Events</p>
+
+
+
+  </div>
+
+
+  <div class="animated fadeIn">
+    <!-- Where the *body* of the paragrapgh will go so go for 3+ images with text talking about something, hopefull about something about what this will acoomplish-->
+    <!-- <<Br>Is the line used to break the line</Br> -->
+      <img class="pic1 animated jackInTheBox" align="right" src="pictures\download.jpg" alt="">
+    <h1 class="imgnexttitle animated bounceIn">Our Purpose</h1>
+    <h4 class="imgnext animated rollIn">
+      The purpose of No Fences Okinawa is to break down the barriers that exist between the Okinawan and United States military communities by presenting high school students with an environment outside of the more regimented structure of school to have an enjoyable and relaxed environment where students can interact and talk with one another.  With this approach, students can talk and learn about one another without feeling forced, and hopefully discover that they have more in common than different.
+    </h4>
+      <img class="animated jackInTheBox pic2" align="left" src="pictures\Free.jpg" alt="">
+    <h1 class="imgnext2title animated zoomInRight">What No Fences does</h1>
+    <h4 class="imgnext2 animated zoomInRight">No Fences brings the Okinawan high school students to interact or to have a language, cultural exchange without having to pay money for it with the Us Military high school students. This also gives a chance for the students to make friends and understand one another’s culture to increase an understanding of one another</h4>
+      <img class="pic3 animated jackInTheBox" align="right" src="pictures\20191106205700-GettyImages-999388402-crop.jpg" alt="">
+    <h1 class="imgnext3title animated zoomInLeft">How we do it</h1>
+    <h4 class="imgnext animated zoomInLeft">Meetup at the specified place and get to know each other by having some ice breaker before the main event starts to let people know one other and Japanese speakers introduce themselves in English and English speakers introduce themselves in Japanese.
+</h4>
+
+  </div>
+
+  <div>
+    <!-- Show some text expalinging what the map is the for -->
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24052.09723274358!2d127.74777276782751!3d26.34703308867421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f57062eeab5be7%3A0x35bb617286fdd1ef!2sOkinawa!5e0!3m2!1sen!2sjp!4v1576986531225!5m2!1sen!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> -->
+      <div class="location_title">
+        <h1 class="animated zoomIn">Event Locations</h1>
+      </div>
+    <img class="animated fadeIn picmap" src="pictures\Screenshot.png" alt="">
+  </div>
+
+  <div class="footer">
+    <p1 class="animated lightSpeedIn">LEx By: Jonathon McGhee and Angelina Padgett</p1>
+    <!-- The footer goes here, info, home, about, contact, and a phone number or email -->
+  </div>
+</div>
+<!-- This is the end of the main body -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>

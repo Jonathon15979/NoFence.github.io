@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Outdoor</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="..\animate.min.css">
+  <link rel="stylesheet" href="animate.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="stylesheet" href="..\CSS.css">
+</head>
+<body>
+
+  <!-- Page content -->
+  <div class="main animated fadeIn">
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top animated slideInUp">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">No Fences</a>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse animated slideInLeft" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="..\Home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon locationofbutton"></span>
+        </button>
+
+        <!-- Button to open the modal login form -->
+        <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+      </ul>
+    </div>
+      <a class="navlinkright" href="">日本語</a>
+      <a class="navlinkright" href="">English</a>
+  </nav>
+
+    <!-- The Modal -->
+    <div id="id01" class="modal">
+      <span onclick="document.getElementById('id01').style.display='none'"
+    class="close" title="Close Modal">&times;</span>
+
+      <!-- Modal Content -->
+      <form class="modal-content animate" action="/action_page.php">
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button class="logbutton" type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+
+        <div class="container" style="background-color: #dbdbdb">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a><br><a href="#">Sign Up?</a></span>
+        </div>
+      </form>
+    </div>
+
+    <div class="title">
+      <h1 class="animated zoomInUp">No Fences</h1>
+    </div>
+  <div class="parallax"></div>
+
+    <div class="sidenav animated slideInUp">
+
+      <a href="#"></a>
+      <a href="#">Red Cross</a>
+      <a href="#">Community Help</a>
+      <a href="#">Outdoor Activities</a>
+      <a href="#">Indoor Activities</a>
+
+    </div>
+
+    <div class="sidenav2 animated slideInRight">
+      <p class="eventitle1">Up Coming Events</p>
+
+
+    </div>
+
+
+</body>
+</html>
